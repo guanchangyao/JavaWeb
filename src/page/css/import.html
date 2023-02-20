@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Css引入方式</title>
+    <!--    内部样式-->
+    <style>
+        div {
+            color: skyblue;
+        }
+    </style>
+    <link rel="stylesheet" href="import.css">
+</head>
+<body>
+<!--1.内联样式 特点只能控制单个标签-->
+<h1 style="color:red;">Hello world</h1>
+<!--2.内部样式 在head中通过style标签来控制-->
+<div>DIV1</div>
+<div>DIV2</div>
+<!--3.外部样式  在head标签中来引入独立css文件-->
+<span>文本1</span><br>
+<span>文本2</span>
+</body>
+</html>
