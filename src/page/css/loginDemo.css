@@ -1,0 +1,83 @@
+body {
+    background: skyblue;
+}
+
+.center {
+    /*背景色*/
+    background: white;
+    width: 40%;
+    /*水平居中外边距*/
+    margin: auto;
+    /*边框弧度*/
+    border-radius: 15px;
+    /*文本水平居中*/
+    text-align: center;
+}
+
+/*表头样式*/
+thead th {
+    font-size: 30px;
+    color: orangered;
+}
+
+/*表体提示信息样式*/
+tbody label {
+    font-size: 20px;
+}
+
+/*表体输入框的样式*/
+tbody input {
+    /*边框*/
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 90%;
+    height: 40px;
+    outline: none;
+}
+
+/*表行的高度*/
+tr {
+    line-height: 60px;
+}
+
+/*表体确定按钮*/
+tfoot button {
+    /*边框*/
+    border: 1px solid red;
+    /*边框弧度*/
+    border-radius: 5px;
+    /*按钮宽度*/
+    width: 90%;
+    /*按钮高度*/
+    height: 40px;
+    /*背景颜色*/
+    background: red;
+    /*文字颜色*/
+    color: white;
+    /*    字体大小*/
+    font-size: 20px;
+}
+
+/*底部页脚*/
+.footer {
+    /*字体大小*/
+    font-size: 15px;
+    /*文字颜色*/
+    color: gray;
+    width: 40%;
+    /*水平居中外边距*/
+    margin: auto;
+    /*边框弧度*/
+    border-radius: 15px;
+    /*文本水平居中*/
+    text-align: center;
+
+}
+
+/*超链接样式*/
+a{
+    /*去除下划线*/
+    text-decoration: none;
+    /*超链接的颜色*/
+    color: blue;
+}
