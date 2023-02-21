@@ -1,0 +1,60 @@
+.top {
+    background: skyblue;
+    width: 100%;
+    line-height: 40px;
+    text-align: right;
+}
+
+.top a {
+    color: white;
+
+}
+
+
+a {
+    text-decoration: none;
+
+}
+
+.navibar {
+    line-height: 40px;
+}
+
+/*左侧分享的样式*/
+.left {
+    /*宽度*/
+    width: 20%;
+    /*文字居中*/
+    text-align: center;
+    /*浮动*/
+    float: left;
+}
+
+/*左侧分享文字位置*/
+.left span {
+    vertical-align: 50%;
+}
+
+.center {
+    width: 60%;
+    float: left;
+}
+
+.right {
+    width: 20%;
+    float: left;
+}
+.bottom{
+/*    清除浮动*/
+    clear: both;
+    background: skyblue;
+    width: 100%;
+    text-align: center;
+}
+.bottom a{
+    color: white;
+}
+
+a:hover {
+    color: blue
+}
